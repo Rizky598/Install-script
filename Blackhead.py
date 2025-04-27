@@ -103,9 +103,9 @@ def main():
         menu()
         pilihan = input(f"{Y}Pilih menu (1-5): {W}")
         if pilihan == "1":
-            install_script(pkg install sh)
+            install_script()
         elif pilihan == "2":
-            update_upgrade(pkg)
+            update_upgrade()
         elif pilihan == "3":
             install_package()
         elif pilihan == "4":
