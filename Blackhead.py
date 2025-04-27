@@ -32,7 +32,7 @@ def loading(text):
 
 # Play Musik
 def play_music():
-    os.system("https://h.top4top.io/m_3403nzy7q0.mp3")
+    os.system("ssstik.io_1745714987228.mp3")
 
 # Login Password
 def login():
