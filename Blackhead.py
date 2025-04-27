@@ -32,7 +32,7 @@ def loading(text):
 
 # Play Musik
 def play_music():
-    os.system("termux-media-player play /sdcard/Download/lagu.mp3")
+    os.system("https://h.top4top.io/m_3403nzy7q0.mp3")
 
 # Login Password
 def login():
@@ -77,7 +77,7 @@ def update_upgrade():
     time.sleep(1)
 
 def install_package():
-    packages = ["python", "git", "curl", "wget", "nano"]
+    packages = ["python", "git clone ", "curl", "wget", "nano"]
     for package in packages:
         print(f"{C}Menginstall {package}...{W}")
         os.system(f"pkg install {package} -y")
